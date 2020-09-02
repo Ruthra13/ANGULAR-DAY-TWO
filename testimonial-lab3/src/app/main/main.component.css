@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0%;
+}
+
+.box1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.box2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.head,
+.para3 {
+  color: orangered;
+}
+
+.para2 {
+  font-weight: bold;
+}
+
+pre {
+  font-size: 20px;
+}
